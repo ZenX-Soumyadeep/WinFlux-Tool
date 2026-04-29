@@ -1,5 +1,7 @@
 Write-Host "WinFlux Tool Started"
 
-. .\modules\test.ps1
+. .\core\backup.ps1
+. .\modules\services.ps1
 
-Run-Test
+Backup-Services
+Disable-XboxServices
