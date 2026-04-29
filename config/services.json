@@ -1,0 +1,8 @@
+{
+  "disable": [
+    "XboxGipSvc",
+    "XblAuthManager",
+    "XblGameSave",
+    "XboxNetApiSvc"
+  ]
+}
